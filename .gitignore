@@ -1,0 +1,6 @@
+UCI HAR Dataset/
+*.zip
+*.csv
+date_downloaded.txt
+.RData
+.RHistory
