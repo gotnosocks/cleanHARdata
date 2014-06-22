@@ -125,4 +125,5 @@ ProcessHAR <- function(test.only = FALSE) {
     # Write the data frames to files
     write.csv(xysubject,"UCI_HAR_clean.csv", row.names = FALSE)
     write.csv(summary,"UCI_HAR_summary.csv", row.names = FALSE)
+    xysubject
 }
